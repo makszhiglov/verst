@@ -1,0 +1,298 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+	<link rel="stylesheet" href="grid.css">	
+	<link rel="stylesheet" href="main.css">
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,600,700,800,300' rel='stylesheet' type='text/css'>
+	<title>max</title>
+</head>
+<body>
+	<header class="header">
+			<nav class="container">
+				<a href="index.html" class="logo column span-2" name="top"></a>
+				<div class="menu column span-6">
+					<ul>
+						<li><a href="#">home</a></li>
+						<li><a href="#">about</a></li>
+						<li><a href="#">services</a></li>
+						<li><a href="#">prices</a></li>
+						<li><a href="#">contacts</a></li>
+					</ul>
+				</div>
+				<div class="social column">
+					<button class="facebook"></button>
+					<button class="google"></button>
+					<button class="twetter"></button>
+				</div>
+			</nav>
+	</header>
+	<div id="slideshow"></div>
+	<section class="intro container">
+		<div class="span-3 in-1">
+			<div class="introtext">
+				<p class="brt">New way of vision</p>
+				<p>Curabitur at rhoncus quam. In in tortor quis sem tempor ultricies in.</p>	
+			</div>
+		</div>
+		<div class="span-3 in-2">
+			<div class="introtext">
+				<p class="brt">Fresh ideas</p>
+				<p>Suspendisse auctor sagittis quam quis rhoncus. </p>
+			</div>
+		</div>
+		<div class="span-3 in-3">
+			<div class="introtext">
+				<p class="brt">Strong foundations</p>
+				<p>Curabitur at rhoncus quam. In in tortor quis sem tempor ultricies in.</p>
+			</div>
+		</div>
+		<div class="span-3 in-4 last">
+			<div class="introtext">
+				<p class="brt">Great support</p>
+				<p>Suspendisse auctor sagittis quam quis rhoncus. </p>
+			</div>
+		</div>
+	</section>
+	<section class="about">
+		<div class="about-us container">
+			<h3>about us<button onclick="razv()" class="buthide" id='buthide'></button></h3>
+			<div id="spans">
+				<div class="span-4 hide">
+					<h4>Who We Are</h4>
+					<p>Suspendisse dictum quam tortor, et dapibus lacus. Quisque euismod lacus in mi consequat sed pulvinar elit ultricies. Nam eu ligula ut massa lobortis scelerisque. Curabitur at rhoncus quam. In in tortor quis sem tempor ultricies in eu risus. Fusce posuere justo et metus semper molestie. </p>
+				</div>
+				<div class="span-4 hide">
+					<h4>Why us?</h4>
+					<ul class='list'>
+						<li>Suspendisse dictum quam tortor</li>
+						<li>Set dapibus lacus.</li>
+						<li>Quisque euismod lacus in mi consequat sed </li>
+						<li>Nam eu ligula ut massa lobortis scelerisque. </li>
+						<li>Curabitur at rhoncus quam. </li>
+					</ul>
+				</div>
+				<div class="span-4 hide">
+					<h4>Testemonials</h4>
+					<span class="bct">Curabitur at rhoncus quam. In in tortor quis sem tempor ultricies in eu risus. Fusce posuere justo et metus semper molestie.</span>
+					<div class="treugol"></div>
+					<span class="autor">Jhon Doe</span>
+				</div>
+			</div>
+		</div>
+		<div class="the-team container">
+			<h3>meet the team</h3>
+			<figure class="people span-3">
+				<img src="img/teamphoto.jpg" alt="our team" class="photo">
+				<span class="name">Stojan Petrov</span>
+				<span class="posada">manager</span>
+			</figure>
+			<figure class="people span-3">
+				<img src="img/teamphoto.jpg" alt="our team" class="photo">
+				<span class="name">Ivan Scirda</span>
+				<span class="posada">client realtoes</span>
+			</figure>
+			<figure class="people span-3">
+				<img src="img/teamphoto.jpg" alt="our team" class="photo">
+				<span class="name">Elena Zvagilskaya</span>
+				<span class="posada">sales</span>
+			</figure>
+			<figure class="people span-3 last">
+				<img src="img/teamphoto.jpg" alt="our team" class="photo">
+				<span class="name">Mark Durov</span>
+				<span class="posada">client manager</span>
+			</figure>
+		</div>
+	</section>
+	<section class="services container">
+		<h3>services
+			<button onclick="razvert()" class="buthide" id='buthideblue'></button>
+		</h3>
+		<div class="container servi" id='servi'>
+			<div class="span-2 serv">
+				<a href="#">
+					<div class="img Consulting"></div>
+					<p>Consulting</p>
+				</a>
+				<p>Curabitur at rhoncus quam. In in tortor quis sem tempor ultricies in.</p>
+			</div>
+			<div class="span-2 serv">
+				<a href="#">
+					<div class="img Planing"></div>
+					<p>Planing</p>
+				</a>
+				<p>Curabitur at rhoncus quam. In in tortor quis sem tempor ultricies in.</p>
+			</div>
+			<div class="span-2 serv">
+				<a href="#">
+					<div class="img Development"></div>
+					<p>Development</p>
+				</a>
+				<p>Curabitur at rhoncus quam. In in tortor quis sem tempor ultricies in.</p>
+			</div>
+			<div class="span-2 serv">
+				<a href="#">
+					<div class="img Production"></div>
+					<p>Production</p>
+				</a>
+				<p>Curabitur at rhoncus quam. In in tortor quis sem tempor ultricies in.</p>
+			</div>
+			<div class="span-2 serv">
+				<a href="#">
+					<div class="img Analysis"></div>
+					<p>Analysis</p>
+				</a>
+				<p>Curabitur at rhoncus quam. In in tortor quis sem tempor ultricies in.</p>
+			</div>
+			<div class="span-2 serv last">
+				<a href="#">
+					<div class="img Release"></div>
+					<p>Release</p>
+				</a>
+				<p>Curabitur at rhoncus quam. In in tortor quis sem tempor ultricies in.</p>
+			</div>
+		</div>
+	</section>
+	<div class="container data-some">
+		<div class="span-6 tabs">
+			<input type="radio" id='tab-1' name='tab' checked='checked'>
+			<input type="radio" id='tab-2' name='tab' >
+			<input type="radio" id='tab-3' name='tab' >
+			<label for="tab-1" id='tab-l1'>Tab One</label>
+			<label for="tab-2" id='tab-l2'>Tab Two</label>
+			<label for="tab-3" id='tab-l3'>Tab Three</label>
+			<div style='clear:both'></div>
+			<div class="tabs-cont">
+				<div id="tab-cont1">Suspendisse dictum quam tortor, et dapibus lacus. Quisque euismod lacus in mi consequat sed pulvinar elit ultricies. Nam eu ligula ut massa lobortis scelerisque.<br> <br>
+				Curabitur at rhoncus quam. In in tortor quis sem tempor ultricies in eu risus. Fusce posuere justo et metus semper molestie. </div>
+				<div id="tab-cont2">Suspendisse dictum quam tortor, et dapibus lacus. Quisque euismod lacus in mi consequat sed pulvinar elit ultricies. Nam eu ligula ut massa lobortis scelerisque.<br> <br>
+				Curabitur at rhoncus quam. In in tortor quis sem tempor ultricies in eu risus. Fusce posuere justo et metus semper molestie. </div>
+				<div id="tab-cont3">Suspendisse dictum quam tortor, et dapibus lacus. Quisque euismod lacus in mi consequat sed pulvinar elit ultricies. Nam eu ligula ut massa lobotis scelerisque.<br> <br>
+				Curabitur at rhoncus quam. In in tortor quis sem tempor ultricies in eu risus. Fusce posuere justo et metus semper molestie. </div>
+			</div>
+		</div>
+		<div class="span-6 some last">
+			<div class='results'>Some of our results</div>
+			<div class="progress-bar">
+				<div class="blue">Quisque euismod</div><div class='w80'>80%</div>
+			</div>
+			<div class="progress-bar">
+				<div class="blue">Quisque euismod</div><div class='w30'>30%</div>
+			</div>
+			<div class="progress-bar">
+				<div class="blue">Quisque euismod</div><div class='w75'>75%</div>
+			</div>
+			<div class="progress-bar last">
+				<div class="blue">Quisque euismod</div><div class='w60'>60%</div>
+			</div>
+		</div>
+	</div>
+	<div class="pr">
+		<section class="container">
+			<h3>SEE OUR PRICES AND COMPARE!</h3>
+			<div class="container price">
+				<div class="span-3">
+					<p class="imya">Light</p>
+					<div>
+						<span class="cena">Free</span>
+						<ul>
+							<li>Sed laoreet ullamcorper</li>
+							<li>Smetus semper molestie</li>
+						</ul>
+					</div>
+					<a href="#" class="buy">Sign up for free</a>
+				</div>
+				<div class="span-3">
+					<p class="imya">Standart</p>
+					<div>
+						<span class="cena">$ 10 <span>per/m</span></span>
+						<ul>
+							<li>Sed laoreet ullamcorper</li>
+							<li>Smetus semper molestie</li>
+							<li>Sed laoreet ullamcorper</li>
+						</ul>
+					</div>
+					<a href="#" class="buy">Buy NOW</a>
+				</div>
+				<div class="span-3 ">
+					<p class="imya bizness">Busines</p>
+					<div>
+						<span class="cena biz">$ 35 <span>per/m</span></span>
+						<ul class="biz">
+							<li>Sed laoreet ullamcorper</li>
+							<li>Smetus semper molestie</li>
+							<li>Sed laoreet ullamcorper</li>
+							<li>Smetus semper molestie</li>
+						</ul>
+					</div>
+					<a href="#" class="buy bizness">Buy NOW</a>
+				</div>
+				<div class="span-3 last">
+					<p class="imya">Enterprice</p>
+					<div>
+						<span class="cena">$ 50 <span>per/m</span></span>
+						<ul>
+							<li>Sed laoreet ullamcorper</li>
+							<li>Smetus semper molestie</li>
+							<li>Sed laoreet ullamcorper</li>
+						</ul>
+					</div>
+					<a href="#" class="buy">Buy NOW</a>
+				</div>
+		</div>
+		<div class="container sign">
+			 <div class="span-6 signup">
+			 	<span>Sign up for free</span>
+			 	<p>Suspendisse dictum quam tortor, et dapibus lacus. Quisque euismod <br>lacus in mi consequat sed pulvinar elit ultricies. Nam eu ligula ut massa</p>
+			 </div>
+			 <div class="span-6 mail last">
+			 	<input type="email">
+			 	<button class="subskr">SUBSCCRIBE</button>
+			 </div>
+		</div>
+		</section>
+		<section class="contact-form">
+			<div class="contact container">
+				<div class="form span-3">
+					<p class="boldtext">Contact Form</p>
+					<form action="q.php">
+						<input type="text" name="name" value="name">
+						<input type="email" name="mail" value="e-mail">
+						<input type="tel" name="phone" value="phone">
+					</form>
+				</div>
+				<div class="comment span-6">
+					<form action="q.php" name='new'>
+						<input type="text" name="comment" value='comment'>
+						<button id="send">send</button>
+					</form>
+				</div>
+				<div class="adress span-3 last">
+					<p class="boldtext">Adress</p>
+					<div class="comm">
+						<p>Anhiora comunication</p>
+						<p>Sevenoaks Rd <br>Sevenoaks TN14 7HR, United Kingdom </p>
+						<ul>
+							<li>998 25698 569</li>
+							<li>998 75898 569</li>
+							<li class="mali"><a href="mailto:info@anhiora.domain" class="mali">info@anhiora.domain</a></li>
+						</ul>
+					</div>
+					<div class="socials">
+						<a href="#" class="facebook"></a>
+						<a href="#" class="googlepl"></a>
+						<a href="#" class="tweeter"></a>
+					</div>
+				</div>
+			</div>
+		</section>
+	</div>
+	<footer>
+		<div class="footer container">
+			<p class="span-3">&#169; 2013 Anhiora comunication</p>
+			<a href="#top" class="top"></a><p class="coding">coding by Maks Zhiglov</p>
+		</div>
+	</footer>
+<script src="script.js"></script>
+</body>
+</html>
